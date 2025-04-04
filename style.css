@@ -1,8 +1,14 @@
+:root {
+  --primary-color: #ddbcda;
+  --primary-background: #481535;
+  --secondary-color: rgba(255,255,255,0.1);
+}
+
 body {
   margin: 0;
   padding: 180px 0 0 0;
   font-family: "Jost", sans-serif;
-  background-color: #481535;
+  background-color: var(--primary-background);
 
   min-height: 100vh;
   display: flex;
@@ -33,9 +39,25 @@ body {
 }
 
 .navigation-bar-color {
-  background-color: #481535;
+  background-color: var(--primary-background);
 }
 
 .custom-font-1 {
-  color: #ddbcda;
+  color: var(--primary-color);
+}
+
+.link-box-2 {
+  padding: 5px;
+  background-color: var(--primary-color);
+  border-radius: 30px;
+  margin: 5px;
+}
+
+.new-icons-1 {
+  font-size: 30px;
+  color: #645060;
+}
+
+.page-break {
+    flex-grow: 1;
 }
