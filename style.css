@@ -104,3 +104,37 @@ body {
   opacity: 1;
   transform: scale(1,1);
 }
+
+.framework-1,
+.framework-2,
+.framework-3,
+.framework-4 {
+  font-size: 40px;
+}
+
+.framework-1 {
+  color: orange; 
+}
+
+.framework-2 {
+  color: blue; 
+}
+
+.framework-3 {
+  color: yellow; 
+}
+
+.framework-4 {
+  color: blueviolet;
+}
+
+.services {
+  width: 200px;
+  height: 120px;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+}
+
+.services-2 {
+  background-color: #32182f84;
+}
